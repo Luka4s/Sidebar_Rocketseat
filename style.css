@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-bg-color: #dce4e3;
+    --green: #18c29c;
+    --light-green: #8ed7c6;
+    --light-grey: #dce4e3;
+    --text-color: #084236;
+}
+body{
+    background-color: var(--body-bg-color);
+    display: flex;
+    height: 100vh;
+}
+#Side{
+   background-color: var(--green);
+    color: var(--text-color);
+    position: absolute;
+    height: 90vh;
+    width: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.invisible{
+    position: fixed;
+    top: 26px;
+    left: 8px;
+}
+h2{
+    font-size: 10px;
+    position: relative;
+    left: 100px;
+}
+label{
+width: 5px;
+}
+button{
+    background-image: url(./images/menu.svg);
+    background-color: var(--green);
+    border: none;
+    position: relative;
+    top: 26px;
+}
+
+.search{
+    position: absolute;
+    top: 89px;
+    left: 27px;
+}
+.grid{
+    position: absolute;
+    top:147px ;
+    left: 27px;
+}
+#gridtxt{
+    position: absolute;
+    top: 147px;
+    left: 80px;
+}
+.pet{
+    position: absolute;
+    top:205px ;
+    left: 27px;
+}
+#pettxt{
+    position: absolute;
+    top: 205px;
+    left: 80px;
+}
+.user{
+    position:absolute;
+    top:263px ;
+    left: 27px;
+}
+#usertxt{
+    position: absolute;
+    top: 263px;
+    left: 80px;
+}
+.vet{
+    position: absolute;
+    top:321px ;
+    left: 27px;
+}
+#vettxt{
+    position: absolute;
+    top: 321px;
+    left: 80px;
+}
+.settings{
+    position:absolute;
+    top:379px ;
+    left: 27px;
+}
+#settingstxt{
+    position: absolute;
+    top: 379px;
+    left: 80px;
+}
+.out{
+    
+    color: var(--text-color);
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 27px;
+    top: 726px;
+
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
