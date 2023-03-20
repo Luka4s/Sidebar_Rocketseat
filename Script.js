@@ -8,13 +8,14 @@ const pettxt = document.getElementById('pettxt')
 const usertxt = document.getElementById('usertxt')
 const vettxt = document.getElementById('vettxt')
 const settingstxt = document.getElementById('settingstxt')
-
+const search = document.getElementById('search')
 function Assignment(){
 
     console.log('Click')
-    Side.style.width = '150px'
+    Side.style.width = '200px'
     Side.style.backgroundColor ='#18c29c;'
     Open.style.left = '45px'
+    search.style.removeProperty('visibility')
     logo.style.removeProperty('visibility')
     gridtxt.style.removeProperty('visibility')
     pettxt.style.removeProperty('visibility')
@@ -26,6 +27,7 @@ function back_off(){
     Open.style.left = '0px'
     Side.style.width = '78px'
     Side.style.backgroundColor ='#18c29c;'
+    search.style.setProperty('visibility', 'hidden')
     logo.style.setProperty('visibility','hidden')
     gridtxt.style.setProperty('visibility', 'hidden')
     pettxt.style.setProperty('visibility', 'hidden')

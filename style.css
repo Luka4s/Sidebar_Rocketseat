@@ -14,6 +14,7 @@ body{
     background-color: var(--body-bg-color);
     display: flex;
     height: 100vh;
+   
 }
 #Side{
    background-color: var(--green);
@@ -33,7 +34,9 @@ body{
     left: 8px;
 }
 h2{
-    font-size: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 13px;
     position: relative;
     left: 100px;
 }
@@ -53,6 +56,15 @@ button{
     top: 89px;
     left: 27px;
 }
+input{
+    width: 100px;
+    position: absolute;
+    top: 89px;
+    left: 80px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+}
 .grid{
     position: absolute;
     top:147px ;
@@ -71,7 +83,7 @@ button{
 #pettxt{
     position: absolute;
     top: 205px;
-    left: 80px;
+    left: 60px;
 }
 .user{
     position:absolute;
