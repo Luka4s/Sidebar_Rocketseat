@@ -1,5 +1,5 @@
-const Open = document.getElementById('Open')
-const Side = document.getElementById('Side')
+const Open = document.getElementById('#Open')
+const Side = document.getElementById('#Side')
 const h2 = document.querySelectorAll('h2')
 
 const logo = document.getElementById('img')
@@ -9,8 +9,9 @@ const usertxt = document.getElementById('usertxt')
 const vettxt = document.getElementById('vettxt')
 const settingstxt = document.getElementById('settingstxt')
 const search = document.getElementById('search')
-function Assignment(){
 
+function Assignment(){
+    
     console.log('Click')
     Side.style.width = '200px'
     Side.style.backgroundColor ='#18c29c;'
@@ -24,6 +25,7 @@ function Assignment(){
     settingstxt.style.removeProperty('visibility') 
 }
 function back_off(){
+    console.log('back')
     Open.style.left = '0px'
     Side.style.width = '78px'
     Side.style.backgroundColor ='#18c29c;'
